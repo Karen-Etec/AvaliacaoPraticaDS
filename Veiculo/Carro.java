@@ -16,7 +16,8 @@ public class Carro extends Veículo{
         super(modelo,cor,velocidade);
         this.numeroPortas = numeroPortas;
     }
-    
+
+    @Override
     public void exibirInformacoes () {
         super.exibirInformacoes ();
         System.out.println("Número de portas: " + numeroPortas);
